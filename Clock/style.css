@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+.face {
+    width: 490px;
+    height: 490px;
+    position: relative;
+    margin: 100px auto;
+    border: 20px solid black;
+    border-radius: 50%;
+
+}
+
+.hand {
+    width: 50%;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7,0.58,1);
+    border-radius: 10px;
+}
+
+.hour {}
